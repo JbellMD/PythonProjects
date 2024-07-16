@@ -61,6 +61,21 @@ nav a:hover {
     color: #d1d1d1;
 }
 
+/* Side Image Styles */
+.side-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.side-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* Footer Styles */
 footer {
     background-color: #3c3c4e;
